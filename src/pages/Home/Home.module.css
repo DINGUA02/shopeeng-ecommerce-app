@@ -1,0 +1,24 @@
+.HomeHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3.5rem;
+    margin: 30% 0;
+    cursor: default;
+}
+
+.HomeTitle {
+    font-size: 5rem;
+    color: #FB641B;
+}
+
+.HomeHeader p {
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.HomeHeader span {
+    font-size: 1.4rem;
+    color: #FB641B;
+}

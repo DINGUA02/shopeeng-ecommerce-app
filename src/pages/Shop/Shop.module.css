@@ -1,0 +1,11 @@
+.ShopSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.ShopTitle {
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
