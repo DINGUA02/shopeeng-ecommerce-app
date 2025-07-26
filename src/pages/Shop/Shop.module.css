@@ -9,3 +9,13 @@
     font-size: 3rem;
     letter-spacing: 5px;
 }
+
+/* Medie Query */
+
+@media (max-width: 768px) {
+
+    .ShopTitle {
+        margin: 10%;
+        text-align: center;
+    }
+}
