@@ -38,10 +38,6 @@
 /* Media Query */
 
 @media (max-width: 768px) {
-    
-    body {
-        margin: 5% 10%;
-    }
 
     .CartItemContainer{
         flex-direction: column;

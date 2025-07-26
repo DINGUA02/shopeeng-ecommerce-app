@@ -36,6 +36,9 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
+h2, h3, p {
+  color: white;
+}
 
 button {
   border-radius: 8px;
@@ -47,6 +50,7 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  color:white;
 }
 button:hover {
   border-color: #646cff;

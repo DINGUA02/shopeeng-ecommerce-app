@@ -1,12 +1,13 @@
 .HomeHeader {
     display: flex;
     width: 100%;
+    height: 100vh;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 3.5rem;
-    margin: 30% 0;
     cursor: default;
+    padding: 5rem;
 }
 
 .HomeTitle {
@@ -19,6 +20,7 @@
     font-weight: 500;
     font-size: 1.1rem;
     text-align: center;
+    color: white;
 }
 
 .HomeHeader span {
@@ -29,6 +31,10 @@
 /* Media Query */
 
 @media (max-width: 480px) {
+    .HomeHeader{
+        padding: 1rem;
+    }
+
     .HomeTitle {
         font-size: 4rem;
     }
