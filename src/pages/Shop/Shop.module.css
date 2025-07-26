@@ -17,8 +17,7 @@
 @media (max-width: 768px) {
 
     .ShopSection {
-        margin: 10%;
-        padding: 1.5rem;
+        padding: 10%;
     }
 
     .ShopTitle {
@@ -28,6 +27,6 @@
 
 @media (max-width: 480px) {
      .ShopSection {
-        margin: 5% 0;
+        padding: 5% 1rem;
     }
 }

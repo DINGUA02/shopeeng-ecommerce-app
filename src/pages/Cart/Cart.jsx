@@ -24,8 +24,10 @@ const Cart = ({cartItem, setCartItem}) => {
     return(
         <>
         { cartItem == 0 ? 
-            (<div className={style.CartSection}>
-                <Navbar />
+            (<div className={style.EmptyCartSection}>
+                <div>
+                    <Navbar />
+                </div>
                 <h2>Your <span className={style.CardTitleColor} >Shopeeng</span> Cart is empty... 😔</h2>
             </div>) :
             (<div className={style.CartSection}>
