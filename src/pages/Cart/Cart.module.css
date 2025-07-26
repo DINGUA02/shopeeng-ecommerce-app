@@ -34,3 +34,35 @@
 .CheckoutBtn {
     background-color: #ff0000 !important;
 }
+
+/* Media Query */
+
+@media (max-width: 768px) {
+    
+    body {
+        margin: 5% 10%;
+    }
+
+    .CartItemContainer{
+        flex-direction: column;
+    }
+
+    .CartTitle {
+        margin-bottom: 10%;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .CartTitle {
+       text-align:center;
+       font-size: 1.5rem;
+       margin-top: 10%;
+    }
+
+    .CardTitleColor {
+    color: #FB641B ;
+    font-size: 3rem;
+    }
+}
+

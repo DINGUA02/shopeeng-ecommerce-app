@@ -1,6 +1,7 @@
 .CartItemCard {
     display: flex;
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     gap: 1rem;
     border: 1px solid #fff;
     padding: 20px 10px;
@@ -68,4 +69,13 @@
 .CheckoutBtn {
     background-color: #ff0000 !important; 
     font-size: 3rem;
+}
+
+/* Media Query */
+
+
+@media (max-width: 480px) {
+    .CartItemCard {
+        transform: scale(.7);
+    }
 }
