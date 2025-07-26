@@ -1,3 +1,6 @@
+nav {
+    margin-top: 5%;
+}
 .MainNav {
     display: flex;
     gap: 2rem;
